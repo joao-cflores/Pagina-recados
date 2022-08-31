@@ -1,0 +1,139 @@
+
+
+
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-image: url(/public/assets/images/fundo1.jpg);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+}
+
+#cadastro {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    margin-left: 45%;
+
+    
+}
+
+.card {
+
+    background-color: rgba( 255, 227, 137);
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    width:280px;
+
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: black;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color: black;
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: black;
+
+    font-size: 20px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid black;
+
+    outline: none;
+
+    color: black;
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+#btnCadastro{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #a13854;
+
+    border:none;
+
+    color:black;
+
+    margin: 10px 0;
+
+}
+

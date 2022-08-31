@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Bem vindo(a) a sua página de recados!</h1>
+    <div class="inputs">
+        <form id="formulario" action="">
+            <label for="recado">Recado</label>
+            <input type="text" id="recado" maxlength="20">
+
+            <label for="descricao">Descrição</label>
+            <input type="text" id="descricao" maxlength="50">
+
+            <button id="btnGravar">Gravar Recado</button>
+        </form>
+    </div>
+    <hr>
+    <div class="divTable">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Recado</th>
+                <th>Descrição</th>
+                <th>Ação</th>
+            </tr>
+            <table id="table">
+            </table>
+    </div>
+    <div>
+        <button id="btnSair">Sair</button>
+    </div>
+
+    <script src="./assets/js/home.js"></script>
+</body>
+
+</html>

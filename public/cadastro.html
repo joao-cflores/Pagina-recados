@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div id="cadastro">
+        <div class="card">
+            <div class="card-header">
+                <h2>Cadastro</h2>
+            </div>
+
+
+            <div class="card-content">
+                <div class="card-content-area">
+                    <label id="labelUser" for="usuario">Usuário</label>
+                    <input type="text" id="usuario" placeholder="EX: growdever" required>
+                </div>
+
+                <div class="card-content-area">
+                    <label id="labelSenha" for="senhaCadastro">Senha</label>
+                    <input type="password" id="senhaCadastro" placeholder=" " required>
+                </div>
+
+                <div class="card-content-area">
+                    <label id="labelConfirm" for="senhaConfirmacao">Confirmar Senha</label>
+                    <input type="password" id="senhaConfirmacao" placeholder=" " required>
+                </div>
+            </div>
+
+
+            <div class='card-footer'>
+                <button id="btnCadastro">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script defer src="./assets/js/cadastro.js"></script>
+</body>
+
+</html>
