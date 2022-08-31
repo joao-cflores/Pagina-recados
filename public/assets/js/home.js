@@ -1,5 +1,5 @@
 let usuarioLogado =  JSON.parse(localStorage.getItem('userLogado'))
-imprimirRecados()
+imprimirRecados(usuarioLogado)
 
 if (!usuarioLogado) {
     sair();
@@ -44,9 +44,9 @@ function gravarRecado() {
     imprimirRecados()
 }
 
-function limparRecado() {
+// function limparRecado() {
     
-}
+// }
 
 function imprimirRecados() {
     let tabela = document.getElementById('table');
@@ -76,7 +76,7 @@ function imprimirRecados() {
         td_acao.appendChild(btnExcluir)
         
         tabela.appendChild(tr)
-
+        
 
         
     }
